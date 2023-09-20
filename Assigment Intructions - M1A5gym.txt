@@ -1,0 +1,32 @@
+A client approaches! A local gym has requested that you create a mockup website for them. You will be tasked with creating the site and "delivering" it to the gym owner.  Deliver the GitHub URL here. 
+
+For this assignment, you'll have free reign creatively - we want to see your creativity shine! 
+
+Your task here is to create a small website for a local gym (whatever activity you would like to choose, feel free - rock climbing, swimming, weight lifting, yoga, golf, whatever, as long as it is athleticism and something a local business in your community would offer). 
+
+The site should have at least FOUR pages:
+
+1) a landing page
+
+2) an about page
+
+3) and sign-in and sign-out pages. 
+
+4) Feel free to add more if you want. 
+
+The site should have: 
+
+1) a form
+
+2) a navbar
+
+3) footer 
+
+4) should use either CSS Grid or Bootstrap (Your choice this time) somewhere on the site
+
+4) several images from Unsplash or similar. (Please source your images legally.) 
+
+Tip: If you need inspiration for the layout, try dribbble.com for ideas.
+
+And of course - Have fun with it! One of our goals is for students to fall in love with the act of coding - this is your time to be creative, and practice what you've learned.
+
