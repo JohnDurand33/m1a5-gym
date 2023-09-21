@@ -1,18 +1,11 @@
-/* * {
+* {
     border: 1px solid red;
-} */
+}
 
 /* For Nav */
 
 nav {
-    background-color: rgba(72, 1, 70, 0.8);
-}
-
-#logo {
-    width: 200px;
-    overflow: hidden;
-    object-fit: cover;
-    height: auto;
+  background-color: rgba(72, 1, 70, 0.5);
 }
 
 .dropdown-menu {
@@ -22,7 +15,25 @@ nav {
     --bs-dropdown-link-hover-bg: rgba(130, 12, 126, 0.5);
   }
 
-
+  #logo {
+    height: 100px;
+    width: auto;  
+  }
+  
+  .navbar {
+    height: 100px;
+  }
+  
+  @media screen and (min-width: 700px) {
+    #logo {
+      height: 140px;
+      width: auto;
+      }
+  
+    .navbar {
+    height: 140px;
+    }
+  }
 
   h1 {
     font-weight: 700;
@@ -35,29 +46,12 @@ nav {
       -1px -1px 0 #ffc107;
   }
 
-  :root {
-    --navbar-height: 134px;
-  }
-  
 
-  .navbar {
-    height: var(--navbar-height);
-  }
-  
-  .next-section {
-    margin-top: var(--navbar-height);
-  }
+/* for membership section */
 
-
-@media screen and (min-width: 600px) {
-    #trainer-grid {
-        padding-top: 140px;
+.membership-ratecards {
+  padding-top: 300px; 
 }
-}
-
-/* For Section-1 */
-
-
 
 
 
@@ -66,7 +60,8 @@ nav {
 /* For Footer */
 
 footer {
-    background-color: rgba(72, 1, 70, 0.8);
+    background-color: rgb(72, 1, 70);
+
 }
 
     .map-wrapper {
@@ -87,9 +82,3 @@ color: white;
 .fa-brands:hover {
 color: #5DADE2;
 }
-
-/* @media only screen and (max-width: 600px) {
-.location-row {
-    flex-direction: column;
-}
-} */

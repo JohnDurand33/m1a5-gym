@@ -2,50 +2,28 @@
     border: 1px solid red;
 } */
 
-nav {
-    background-color: rgba(72, 1, 70, 0.8);
-}
 
-#logo {
-    width: 200px;
-    overflow: hidden;
-    object-fit: cover;
-    height: auto;
+
+nav {
+  background-color: rgba(72, 1, 70);
 }
 
 .dropdown-menu {
-    --bs-dropdown-bg: white;
-    --bs-dropdown-link-color: #333, .5;
-    --bs-dropdown-link-hover-color:white;
-    --bs-dropdown-link-hover-bg: rgba(130, 12, 126, 0.5);
-  }
-
-  :root {
-    --navbar-height: 134px;
-  }
-  
-
-  .navbar {
-    height: var(--navbar-height);
-  }
-  
-  .next-section {
-    margin-top: var(--navbar-height);
-  }
-
-
-@media screen and (min-width: 600px) {
-    #trainer-grid {
-        padding-top: 140px;
-}
+  --bs-dropdown-bg: white;
+  --bs-dropdown-link-color: #333, .5;
+  --bs-dropdown-link-hover-color:white;
+  --bs-dropdown-link-hover-bg: rgba(130, 12, 126, 0.5);
 }
 
-
+.sidebar {
+  background-color:  rgba(72, 1, 70);
+}
 
 h1 {
   font-weight: 700;
   color: rgb(143, 13, 138);
   text-align: center;
+  text-decoration: underline;
   text-shadow:
   1px 1px 0 #ffc107,
   1px -1px 0 #ffc107,
@@ -71,19 +49,23 @@ h1 {
 /* Below for Footer */
 
 footer {
-    background-color: rgba(72, 1, 70, 0.8);
+    background-color: rgb(72, 1, 70);
 }
 
     .map-wrapper {
 width:277px;
 height: 202px;
 overflow: hidden;
+display: flex;
 }
 
 .map-wrapper img {
 width: 100%;
 object-fit: cover;
+flex-shrink: none;
 }
+
+
 
 .fa-brands {
 color: white;
@@ -93,3 +75,36 @@ color: white;
 color: #5DADE2;
 }
 
+#logo {
+  height: 100px;
+  width: auto;  
+}
+
+.navbar {
+  height: 100px;
+}
+
+#trainergrid {
+  position:relative;
+  margin-top: 0px;
+}
+
+.map-wrapper {
+  flex-shrink: none;
+}
+
+@media screen and (min-width: 700px) {
+  #logo {
+    height: 140px;
+    width: auto;
+    }
+
+  .navbar {
+  height: 140px;
+  }
+
+  #trainergrid {
+    position: relative;
+    margin-top: 30px;
+  }
+}

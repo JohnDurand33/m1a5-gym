@@ -6,122 +6,125 @@
     <title></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheet.css">
-    
   </head>
 
-<body class="d-flex-column bg-light">
+<body class="bg-white">
 
-    <nav id="test" class="navbar navbar-expand-lg navbar-dark m-0 p-0">
-        <div class="container-fluid d-flex justify-content-between m-0 p-0">
-          <a class="navbar-brand ms-0 p-0" href="http://127.0.0.1:5502/Landing-page/index.html" alt="Homepage">
-              <img id="logo" src="Static/Gym/ST-final logo-formatted.jpg" alt="Swoll Temple Logo" class="img-fluid"></a> 
-            <button class="navbar-toggler pe-5" 
-              type="button" 
-              data-bs-toggle="collapse" 
-              data-bs-target="#navmenu">
-            <span class="navbar-toggler-icon"></span></button>
-          <div class="collapse navbar-collapse" id="navmenu">
-            <ul class="navbar-nav ms-auto me-5 pe-5">
-              <li class="nav-item">
-                <a class="nav-link" href="http://127.0.0.1:5502/Landing-page/index.html" alt="Homepage">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">About Us</a>
-                <ul class="dropdown-menu">
-                    <li ><a class="dropdown-item" href="#footer">Locations</a></li>
-                    <li><a class="dropdown-item" href="#">Classes</a></li>
-                    <li><a class="dropdown-item active" href="http://127.0.0.1:5501/index.html">Trainers</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Memberships</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Account</a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Sign In</a></li>
-                    <li><a class="dropdown-item" href="#">Sign Out</a></li>
-                    <li><a class="dropdown-item" href="#">Your Info</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">New Member?</a></li>
-                </ul>
-              </li class="nav-item">
-                <a class="nav-link" href="#footer">Locations</a>
-              </li>
+  <nav class="navbar navbar-expand-lg navbar-dark m-0 p-0">
+    <div class="container-fluid d-flex justify-content-between m-0 p-0">
+      <a class="navbar-brand ms-0 p-0" href="http://127.0.0.1:5500/index.html" alt="Homepage">
+          <img id="logo" src="Static/Gym/ST-final logo-formatted.jpg" alt="Swoll Temple Logo" class="img-fluid"></a> 
+        <button class="navbar-toggler pe-5" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto me-5 pe-5">
+          <li class="nav-item">
+            <a class="nav-link active" href="http://127.0.0.1:5502/index.html" alt="Homepage">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">About Us</a>
+        <ul class="dropdown-menu">
+                <li ><a class="dropdown-item" href="#footer">Locations</a></li>
+                <li><a class="dropdown-item" href="#">Classes</a></li>
+                <li><a class="dropdown-item" href="http://127.0.0.1:5501/index.html">Trainers</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Memberships</a></li>
             </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Account</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Sign In</a></li>
+                <li><a class="dropdown-item" href="#">Sign Out</a></li>
+                <li><a class="dropdown-item" href="#">Your Info</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">New Member?</a></li>
+            </ul>
+          </li class="nav-item">
+            <a class="nav-link" href="#footer">Locations</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Trainer Section -->
+
+<section class="section-one d-flex pt-0">
+  <div class="col-1 sidebar"></div>
+  <div id="trainergrid" class="container">
+      <div class="text-center pb-2"><h1>Our Trainers</h1>    
+          <div class="row row-cols-1 row-cols-md-3 pt-4">       
+              <div class="col d-flex justify-content-center">
+                  <div class="card border border-warning text-center mb-4 mt-4" style="max-width: 18rem;">
+                  <img src="Static/Staff/trainer-4-card.jpg" alt="..." class="img-fluid border">
+                      <div class="card-body">
+                        <h5 class="card-title">Sean</h5>
+                        <p class="card-text">Sean is our head trainer.  He's from .....</p>
+                        <a href="#" class="btn btn-custom">Click To Schedule!</a>
+                      </div>
+                    </div> 
+              </div>
+              <div class="col d-flex justify-content-center">
+                  <div class="card border border-warning text-center mb-4 mt-4" style="width: 18rem;">
+                  <img src="Static/Staff/trainer-3-card.jpg" alt="..." class="img-fluid border">
+                      <div class="card-body">
+                        <h5 class="card-title">Lady Dee</h5>
+                        <p class="card-text">Lady Dee is our Spinning Guru.  She's Biked across Asia, Africa, and the US! She ...</p>
+                        <a href="#" class="btn btn-custom">Click To Schedule!</a>
+                      </div>
+                  </div> 
+              </div>
+              <div class="col d-flex justify-content-center">
+                  <div class="card border border-warning text-center mb-4 mt-4" style="width: 18rem;">
+                  <img src="Static/Staff/trainer-2-card.jpg" alt="..." class="img-fluid border">
+                      <div class="card-body">
+                        <h5 class="card-title">Clay</h5>
+                        <p class="card-text">Clay is our own In-House Cycling and Yo ...ga Instructor!  If you need someone to</p>
+                        <a href="#" class="btn btn-custom">Click To Schedule!</a>
+                      </div>
+                  </div> 
+              </div>
+              <div class="col d-flex justify-content-center">
+                  <div class="card border border-warning text-center mb-4 mt-4" style="width: 18rem;">
+                  <img src="Static/Staff/trainer-6-card.jpg" alt="..." class="img-fluid border">
+                      <div class="card-body">
+                        <h5 class="card-title">Chirag</h5>
+                        <p class="card-text">Chi is our Mind, Body, and Soul Trainer.  He helps keep not only your physical routine intact, but your mental and spiritual as well!</p>
+                        <a href="#" class="btn btn-custom">Click To Schedule!</a>
+                      </div>
+                  </div> 
+              </div>
+              <div class="col d-flex justify-content-center">
+                  <div class="card border border-warning text-center mb-4 mt-4" style="width: 18rem;">
+                  <img src="Static/Staff/trainer-5-card.jpg" alt="..." class="img-fluid border">
+                      <div class="card-body">
+                        <h5 class="card-title">Wahid</h5>
+                        <p class="card-text">Wahid is our All-Around Trainer.  From yoga to leg day ...</p>
+                        <a href="#" class="btn btn-custom">Click To Schedule!</a>
+                      </div>
+                  </div> 
+              </div>
+              <div class="col d-flex justify-content-center">
+                  <div class="card border border-warning text-center mb-4 mt-4" style="width: 18rem;">
+                  <img src="Static/Staff/trainer-1-card.jpg" alt="..." class="img-fluid border">
+                      <div class="card-body">
+                        <h5 class="card-title">William Wallace</h5>
+                        <p class="card-text">William is our Power Trainer</p>
+                        <a href="#" class="btn btn-custom">Click To Schedule!</a>
+                      </div>
+                  </div> 
+              </div>
           </div>
         </div>
-      </nav>
-
-
-<!-- First Section -->
-
-<section class="section-one">
-    <div class="section-1">
-        <h1 class="text-center pt-3 pb-2 text-decoration-underline">Our Trainers</h1>
-        <div class="row row-cols-1 row-cols-md-3 pt-0" id="trainergrid">
-            <div class="col d-flex justify-content-center">
-                <div class="card border border-warning text-center mb-4 mt-4 border" style="max-width: 18rem;">
-                <img src="Static/Staff/trainer-4-card.jpg" alt="..." class="img-fluid border">
-                    <div class="card-body">
-                      <h5 class="card-title">Sean</h5>
-                      <p class="card-text">Sean is our head trainer.  He's from .....</p>
-                      <a href="#" class="btn btn-custom">Click To Schedule!</a>
-                    </div>
-                </div> 
-            </div>
-            <div class="col d-flex justify-content-center">
-                <div class="card border border-warning text-center mb-4 mt-4" style="width: 18rem;">
-                <img src="Static/Staff/trainer-3-card.jpg" alt="..." class="img-fluid border">
-                    <div class="card-body">
-                      <h5 class="card-title">Lady Dee</h5>
-                      <p class="card-text">Lady Dee is our Spinning Guru.  She's Biked across Asia, Africa, and the US! She ...</p>
-                      <a href="#" class="btn btn-custom">Click To Schedule!</a>
-                    </div>
-                </div> 
-            </div>
-            <div class="col d-flex justify-content-center">
-                <div class="card border border-warning text-center mb-4 mt-4" style="width: 18rem;">
-                <img src="Static/Staff/trainer-2-card.jpg" alt="..." class="img-fluid border">
-                    <div class="card-body">
-                      <h5 class="card-title">Clay</h5>
-                      <p class="card-text">Clay is our own In-House Cycling and Yo ...ga Instructor!  If you need someone to</p>
-                      <a href="#" class="btn btn-custom">Click To Schedule!</a>
-                    </div>
-                </div> 
-            </div>
-            <div class="col d-flex justify-content-center">
-                <div class="card border border-warning text-center mb-4 mt-4" style="width: 18rem;">
-                <img src="Static/Staff/trainer-6-card.jpg" alt="..." class="img-fluid border">
-                    <div class="card-body">
-                      <h5 class="card-title">Chirag</h5>
-                      <p class="card-text">Chi is our Mind, Body, and Soul Trainer.  He helps keep not only your physical routine intact, but your mental and spiritual as well!</p>
-                      <a href="#" class="btn btn-custom">Click To Schedule!</a>
-                    </div>
-                </div> 
-            </div>
-            <div class="col d-flex justify-content-center">
-                <div class="card border border-warning text-center mb-4 mt-4" style="width: 18rem;">
-                <img src="Static/Staff/trainer-5-card.jpg" alt="..." class="img-fluid border">
-                    <div class="card-body">
-                      <h5 class="card-title">Wahid</h5>
-                      <p class="card-text">Wahid is our All-Around Trainer.  From yoga to leg day ...</p>
-                      <a href="#" class="btn btn-custom">Click To Schedule!</a>
-                    </div>
-                </div> 
-            </div>
-            <div class="col d-flex justify-content-center">
-                <div class="card border border-warning text-center mb-4 mt-4" style="width: 18rem;">
-                <img src="Static/Staff/trainer-1-card.jpg" alt="..." class="img-fluid border">
-                    <div class="card-body">
-                      <h5 class="card-title">William Wallace</h5>
-                      <p class="card-text">William is our Power Trainer</p>
-                      <a href="#" class="btn btn-custom">Click To Schedule!</a>
-                    </div>
-                </div> 
-            </div>
-        </div>
+      </div>
+      <div class="col-1 sidebar"></div> 
     </div>
-            
+  </div>
+</section>            
           
           
 
@@ -130,13 +133,13 @@
 
 
 
-<footer id="footer" class="p-1 pt-0 m-l mt-0 p-lg-0 m-lg-0 text-light">
-    <div class="pt-5 pb-5 location-row d-flex justify-content-center">
-      <div class="col d-flex justify-content-center">
+  <footer id="footer" class="d-flex p-1 pt-0 p-lg-0 m-lg-0 text-light">
+    <div class="row pt-5 pb-5">
+      <div class="loc-wrapper col-md-4 d-flex justify-content-center pt-3 pb-3">
         <div class="map-wrapper d-flex">
           <img src="Static/Locations/Denver-location.jpg" alt="Denver map" class="rounded img-fluid">
         </div>
-        <div class="location-info ms-5 justify-content-evenly">
+        <div class="location-info d-flex flex-column ms-5 justify-content-evenly">
           <h4 class="text-decoration-underline">Denver</h4>
           <p>1111 Denver Drive,<br>Denver, CO 88888</p>
           <p>(P): (720) 555-5555</p>
@@ -147,11 +150,11 @@
           </div>
         </div>
       </div>
-      <div class="col d-flex justify-content-center">
+      <div class="loc-wrapper col-md-4 d-flex justify-content-center pt-3 pb-3">
         <div class="map-wrapper d-flex">
           <img src="Static/Locations/Parker-location.jpg" alt="Parker map" class="rounded img-fluid">
         </div>
-        <div class="location-info ms-5 justify-content-evenly">
+        <div class="location-info d-flex flex-column ms-5 justify-content-evenly">
           <h4 class="text-decoration-underline">Parker</h4>
           <p>2222 Parker Place,<br>Denver, CO 88888</p>
           <p>(P): (720) 555-5555</p>
@@ -162,16 +165,13 @@
           </div>
         </div>
       </div>
-    </div>
-  
-    <div class="pt-5 pb-5 location-row d-flex justify-content-center">
-      <div class="col d-flex justify-content-center">
+      <div class="loc-wrapper col-md-4 d-flex justify-content-center pt-3 pb-3">
         <div class="map-wrapper d-flex">
           <img src="Static/Locations/Highlands-ranch -location.jpg" alt="Highlands Ranch map" class="rounded img-fluid">
         </div>
-        <div class="location-info ms-5">
-          <h4 class="text-decoration-underline">Land Ranch</h4>
-          <p>3333 Ranch Road,<br>Highlands Ranch, CO 88888</p>
+        <div class="location-info d-flex flex-column ms-5 justify-content-evenly">
+          <h4 class="text-decoration-underline">Ranchview</h4>
+          <p>3333 Ranch Road,<br>Ranch, CO 88888</p>
           <p>(P): (720) 555-5555</p>
           <div class="social d-flex justify-content-evenly">
             <a href="#"><i class="fa-brands fa-square-facebook fs-2"></i></a><br>
@@ -180,13 +180,13 @@
           </div>
         </div>
       </div>
-      <div class="col d-flex justify-content-center">
+      <div class="loc-wrapper col d-flex justify-content-center  pt-3 pb-3">
         <div class="map-wrapper d-flex">
           <img src="Static/Locations/Aurora Location.jpg" alt="Aurora map" class="rounded img-fluid">
         </div>
-        <div class="location-info ms-5">
+        <div class="location-info d-flex flex-column ms-5 justify-content-evenly">
           <h4 class="text-decoration-underline">Aurora</h4>
-          <p>4444 Aurora Avenue,<br>Aurora, CO 88888</p>
+          <p>4444 Aurora Ave,<br>Aurora, CO 88888</p>
           <p>(P): (720) 555-5555</p>
           <div class="social d-flex justify-content-evenly">
             <a href="#"><i class="fa-brands fa-square-facebook fs-2"></i></a><br>
@@ -195,11 +195,11 @@
           </div>
         </div>
       </div>
-      <div class="col d-flex justify-content-center">
+      <div class="loc-wrapper col d-flex justify-content-center  pt-3 pb-3">
         <div class="map-wrapper d-flex">
           <img src="Static/Locations/Littleton Location.jpg" alt="Littleton map" class="rounded img-fluid">
         </div>
-        <div class="location-info ms-5">
+        <div class="location-info d-flex flex-column ms-5 justify-content-evenly">
           <h4 class="text-decoration-underline">Littleton</h4>
           <p>5555 Littleton Lane,<br>Littleton, CO 88888</p>
           <p>(P): (720) 555-5555</p>

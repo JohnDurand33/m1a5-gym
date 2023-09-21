@@ -8,14 +8,11 @@
     <link rel="stylesheet" href="stylesheet.css">
   </head>
 
-<title>Title</title>
-</head>
-
 <body class="bg-light">
 
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark m-0 p-0">
-    <div class="container-fluid d-flex justify-content-between m-0 p-0">
-      <a class="navbar-brand ms-0 p-0" href="http://127.0.0.1:5500/index.html" alt="Homepage">
+    <div class="d-flex justify-content-between m-0 p-0">
+      <a id="logoborder" class="navbar-brand ms-0 p-0" href="http://127.0.0.1:5500/index.html" alt="Homepage">
           <img id="logo" src="Static/Gym/ST-final logo-formatted.jpg" alt="Swoll Temple Logo" class="img-fluid"></a> 
         <button class="navbar-toggler pe-5" 
           type="button" 
@@ -94,9 +91,9 @@
 
 <!-- Footer -->
 
-<footer id="footer" class="p-1 pt-0 m-l mt-0 p-lg-0 m-lg-0 text-light">
-  <div class="pt-5 pb-5 location-row container-fluid d-flex justify-content-center flex-shrink">
-    <div class="col d-flex justify-content-center">
+<footer id="footer" class="d-flex p-1 pt-0 p-lg-0 m-lg-0 text-light">
+  <div class="row d-inline-flex justify-content around pt-5 pb-5">
+    <div class="loc-wrapper col d-flex justify-content-center pt-3 pb-3">
       <div class="map-wrapper d-flex">
         <img src="Static/Locations/Denver-location.jpg" alt="Denver map" class="rounded img-fluid">
       </div>
@@ -111,11 +108,11 @@
         </div>
       </div>
     </div>
-    <div class="col d-flex justify-content-center">
+    <div class="loc-wrapper col d-flex justify-content-center pt-3 pb-3">
       <div class="map-wrapper d-flex">
         <img src="Static/Locations/Parker-location.jpg" alt="Parker map" class="rounded img-fluid">
       </div>
-      <div class="location-info d-flex flex-column ms-5">
+      <div class="location-info d-flex flex-column ms-5 justify-content-evenly">
         <h4 class="text-decoration-underline">Parker</h4>
         <p>2222 Parker Place,<br>Denver, CO 88888</p>
         <p>(P): (720) 555-5555</p>
@@ -126,16 +123,13 @@
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="pb-5 location-row d-flex flex-shrink">
-    <div class="col d-flex justify-content-center">
+    <div class="loc-wrapper col-md-4 d-flex justify-content-center pt-3 pb-3">
       <div class="map-wrapper d-flex">
         <img src="Static/Locations/Highlands-ranch -location.jpg" alt="Highlands Ranch map" class="rounded img-fluid">
       </div>
-      <div class="location-info d-flex flex-column ms-5">
-        <h4 class="text-decoration-underline">Highlands Ranch</h4>
-        <p>3333 Ranch Road,<br>Highlands Ranch, CO 88888</p>
+      <div class="location-info d-flex flex-column ms-5 justify-content-evenly">
+        <h4 class="text-decoration-underline">Ranchview</h4>
+        <p>3333 Ranch Road,<br>Ranch, CO 88888</p>
         <p>(P): (720) 555-5555</p>
         <div class="social d-flex justify-content-evenly">
           <a href="#"><i class="fa-brands fa-square-facebook fs-2"></i></a><br>
@@ -144,13 +138,13 @@
         </div>
       </div>
     </div>
-    <div class="col d-flex justify-content-center">
+    <div class="loc-wrapper col d-flex justify-content-center  pt-3 pb-3">
       <div class="map-wrapper d-flex">
         <img src="Static/Locations/Aurora Location.jpg" alt="Aurora map" class="rounded img-fluid">
       </div>
-      <div class="location-info d-flex flex-column ms-5">
+      <div class="location-info d-flex flex-column ms-5 justify-content-evenly">
         <h4 class="text-decoration-underline">Aurora</h4>
-        <p>4444 Aurora Avenue,<br>Aurora, CO 88888</p>
+        <p>4444 Aurora Ave,<br>Aurora, CO 88888</p>
         <p>(P): (720) 555-5555</p>
         <div class="social d-flex justify-content-evenly">
           <a href="#"><i class="fa-brands fa-square-facebook fs-2"></i></a><br>
@@ -159,11 +153,11 @@
         </div>
       </div>
     </div>
-    <div class="col d-flex justify-content-center">
+    <div class="loc-wrapper col d-flex justify-content-center  pt-3 pb-3">
       <div class="map-wrapper d-flex">
         <img src="Static/Locations/Littleton Location.jpg" alt="Littleton map" class="rounded img-fluid">
       </div>
-      <div class="location-info d-flex flex-column ms-5">
+      <div class="location-info d-flex flex-column ms-5 justify-content-evenly">
         <h4 class="text-decoration-underline">Littleton</h4>
         <p>5555 Littleton Lane,<br>Littleton, CO 88888</p>
         <p>(P): (720) 555-5555</p>
