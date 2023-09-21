@@ -1,0 +1,82 @@
+/* * {
+    border: 1px solid red;
+} */
+
+/* For Nav */
+
+nav {
+    background-color: rgba(72, 1, 70, 0.8);
+}
+
+#logo {
+    width: 200px;
+    overflow: hidden;
+    object-fit: cover;
+    height: auto;
+}
+
+.dropdown-menu {
+    --bs-dropdown-bg: white;
+    --bs-dropdown-link-color: #333, .5;
+    --bs-dropdown-link-hover-color:white;
+    --bs-dropdown-link-hover-bg: rgba(130, 12, 126, 0.5);
+  }
+
+  :root {
+    --navbar-height: 134px;
+  }
+  
+
+  .navbar {
+    height: var(--navbar-height);
+  }
+  
+  .next-section {
+    margin-top: var(--navbar-height);
+  }
+
+
+@media screen and (min-width: 600px) {
+    #trainer-grid {
+        padding-top: 140px;
+}
+}
+
+/* For Section-1 */
+
+
+
+
+
+
+
+/* For Footer */
+
+footer {
+    background-color: rgba(72, 1, 70, 0.8);
+}
+
+    .map-wrapper {
+width:277px;
+height: 202px;
+overflow: hidden;
+}
+
+.map-wrapper img {
+width: 100%;
+object-fit: cover;
+}
+
+.fa-brands {
+color: white;
+}
+
+.fa-brands:hover {
+color: #5DADE2;
+}
+
+@media only screen and (max-width: 600px) {
+.location-row {
+    flex-direction: column;
+}
+}
