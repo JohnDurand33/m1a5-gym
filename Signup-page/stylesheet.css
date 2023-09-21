@@ -22,6 +22,19 @@ nav {
     --bs-dropdown-link-hover-bg: rgba(130, 12, 126, 0.5);
   }
 
+
+
+  h1 {
+    font-weight: 700;
+    color: rgb(143, 13, 138);
+    text-align: center;
+    text-shadow:
+    1px 1px 0 #ffc107,
+    1px -1px 0 #ffc107,
+    -1px 1px 0 #ffc107,
+      -1px -1px 0 #ffc107;
+  }
+
   :root {
     --navbar-height: 134px;
   }
@@ -75,8 +88,8 @@ color: white;
 color: #5DADE2;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
 .location-row {
     flex-direction: column;
 }
-}
+} */

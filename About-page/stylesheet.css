@@ -40,9 +40,7 @@ nav {
 }
 }
 
-.next-section {
-  margin-top: 145px;
-}
+
 
 h1 {
   font-weight: 700;
@@ -95,8 +93,3 @@ color: white;
 color: #5DADE2;
 }
 
-@media only screen and (max-width: 600px) {
-.location-row {
-    flex-direction: column;
-}
-}

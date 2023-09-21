@@ -31,7 +31,7 @@ h2 {
 }
 
 .sidebar {
-  background-color: rgb(72, 1, 70);
+  background-color: rgba(72, 1, 70, .8);
 }
 
 .gallery-photo {
@@ -47,11 +47,11 @@ h2 {
   .gallery-photo {
     position: relative;
     width: 41.66%;
-
+  }
 }
 
 .gallery-photo img{
-  border: 2px solid black;
+  border: 2px solid #ffc107;
 }
 
 h1 a {
@@ -110,7 +110,7 @@ h1 a:hover {
 
 
 footer {
-  background-color: rgb(72, 1, 70);
+  background-color: rgba(72, 1, 70, .8);
   
 }
 .map-wrapper {
