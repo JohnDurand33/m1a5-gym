@@ -1,19 +1,19 @@
-* {
+/* * {
     border: 1px solid red;
-}
+} */
 
-/* For Nav */
+/* For navbar */
 
-nav {
-  background-color: rgba(72, 1, 70, 0.5);
+.navbar {
+  background-color: rgb(72, 1, 70);
 }
 
 .dropdown-menu {
-    --bs-dropdown-bg: white;
-    --bs-dropdown-link-color: #333, .5;
-    --bs-dropdown-link-hover-color:white;
-    --bs-dropdown-link-hover-bg: rgba(130, 12, 126, 0.5);
-  }
+  --bs-dropdown-bg: white;
+  --bs-dropdown-link-color: #333, .5;
+  --bs-dropdown-link-hover-color:white;
+  --bs-dropdown-link-hover-bg: rgba(130, 12, 126, 0.5);
+}
 
   #logo {
     height: 100px;
@@ -35,7 +35,9 @@ nav {
     }
   }
 
-  h1 {
+  
+
+  /* h1 {
     font-weight: 700;
     color: rgb(143, 13, 138);
     text-align: center;
@@ -44,24 +46,27 @@ nav {
     1px -1px 0 #ffc107,
     -1px 1px 0 #ffc107,
       -1px -1px 0 #ffc107;
-  }
+  } For section Heading Lettering */
 
 
-/* for membership section */
+/* for Main Section */
+
 
 .membership-ratecards {
-  padding-top: 300px; 
+  margin-top: -100px;
 }
 
-
-
-
+@media screen and (min-width: 700px) {
+  .membership-ratecards {
+    margin-top: -140px;
+    z-index: -1;
+  }
+}
 
 /* For Footer */
 
 footer {
     background-color: rgb(72, 1, 70);
-
 }
 
     .map-wrapper {
