@@ -1,11 +1,13 @@
-/* * {
+* {
     border: 1px solid red;
-} */
+}
 
 /* For navbar */
 
 .navbar {
-  background-color: rgb(72, 1, 70);
+  background-color: rgba(72, 1, 70, .8);
+  position:relative;
+  z-index:1;
 }
 
 .dropdown-menu {
@@ -24,7 +26,7 @@
     height: 100px;
   }
   
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 768px) {
     #logo {
       height: 140px;
       width: auto;
@@ -35,7 +37,9 @@
     }
   }
 
-  
+  .sidebar {
+    background-color:  rgba(72, 1, 70);
+  }
 
   /* h1 {
     font-weight: 700;
@@ -52,21 +56,29 @@
 /* for Main Section */
 
 
-.membership-ratecards {
+.title-image {
   margin-top: -100px;
 }
 
+.position {
+  position: relative;
+}
+
 @media screen and (min-width: 700px) {
-  .membership-ratecards {
+.title-image {
     margin-top: -140px;
-    z-index: -1;
   }
+
+  .membership {
+    
+}
 }
 
 /* For Footer */
 
 footer {
     background-color: rgb(72, 1, 70);
+    margin-right: 0;
 }
 
     .map-wrapper {
