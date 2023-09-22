@@ -10,10 +10,11 @@
 
 <body class="bg-dark">
 
-  <nav class="navbar navbar-dark container-fluid navbar-expand-lg m-0 p-0">
+  <nav class="navbar navbar-expand-lg navbar-dark m-0 p-0">
     <div class="container-fluid d-flex justify-content-between m-0 p-0">
       <a class="navbar-brand ms-0 p-0" href="http://127.0.0.1:5500/index.html" alt="Homepage">
-          <img id="logo" src="Static/Gym/ST-final logo-formatted.jpg" alt="Swoll Temple Logo" class="img-fluid"></a> 
+          <img id="logo" src="Static/Gym/ST-final logo-formatted.jpg" alt="Swoll Temple Logo" 
+          class="img-fluid"></a> 
         <button class="navbar-toggler pe-5" 
           type="button" 
           data-bs-toggle="collapse" 
@@ -25,7 +26,8 @@
             <a class="nav-link active" href="http://127.0.0.1:5502/index.html" alt="Homepage">Home</a>
           </li>
           <li class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">About Us</a>
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" 
+            role="button" aria-expanded="false">About Us</a>
         <ul class="dropdown-menu">
                 <li ><a class="dropdown-item" href="#footer">Locations</a></li>
                 <li><a class="dropdown-item" href="#">Classes</a></li>
@@ -53,69 +55,95 @@
    
 <!-- Membership background image -->
 
-<section>
-  <div class="position title-image">
-    <img src="Static/Gym/couple-doing-pushups-6x4.jpg" 
-      alt="Woman shoulder press" class="img-fluid">
+<!-- <section>
+  <div class="title-image">
+    <img src="Static/Gym/man-curls-6x4.jpg" 
+      alt="Man curling weights" class="img-fluid vh100">
   </div>
-</section>
+</section> 
+
+Leaving in case there is a way to make the image fit reactively on all screens -->
   
+
+
 <!-- Membership options -->
 
-<section id="main" class="d-flex">
-  <div class="col-1 sidebar">.</div>
-  <div id="memberships" class="mt-5 mb-5 col justify-content">
-  <div class="row row-cols-1 row-cols-md-3 gx-1 gx-lg-3 text-center text-light ">
-    <div class="membership col">
-      <div class="card">
-        <div class="card-header">
-          Featured
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-        <div class="card-footer text-body-secondary">
-          2 days ago
-        </div>
-      </div>
+<section id="main" class="d-flex container-fluid">
+  <div class="col sidebar"></div>
+    <div class="col-10 title-wrapper conatiner d-flex-column">
+      <h1 class="pt-1 pt-md-3 mt-1 mt-lg-3 text-center">Membership Packages</h1>
+        <div class="col container membership-wrapper mt-1 mb-1 mt-md-3 mb-md-5 ps-1 pe-1 ps-md-3 pe-md-3 ">
+          <div class="member-grid row row-cols-1 row-cols-lg-3 gx-1 gx-lg-5 text-center text-light ">
+            <div class="d-flex-column align-items-center">
+              <div class="card custom-opacity border-warning">
+                <div class="card-header custom-card-bg">"Try Us Out" Plan
+                </div>
+                  <div class="card-body">
+                    <h5 class="card-title">The "Try Us Out" Includes:</h5>
+                    <p class="card-text">
+                      <ul>
+                      <li>Gym Access</li>
+                      <li>Pool Access</li>
+                      <li>Free Wi-Fi</li>
+                      <li>1 Free Smoothie</li>
+                      <li>1 Free Trainer Consult</li>
+                      <li>Lounge Access (21+)</li>
+                    </ul></p>
+                    <a href="#" class="btn custom-button">Learn More!</a>
+                  </div>
+                <div class="card-footer custom-card-bg">
+                  Only $19.99 per Month
+                </div>
+              </div>
+            </div>
+            <div class="col card-col">
+              <div class="card custom-opacity border-warning">
+                <div class="card-header custom-card-bg"><span class="fw-semibold">
+                  "I Wanna Get In Shape" </span>Plan
+                </div>
+                  <div class="card-body">
+                    <h5 class="card-title">"I Wanna Get In Shape" Includes:</h5>
+                    <p class="card-text"><ul>
+                      <li>Gym Access</li>
+                      <li>Pool Access</li>
+                      <li>Free Wi-Fi</li>
+                      <li>1 Free Smoothie</li>
+                      <li>1 Free Trainer Consult</li>
+                      <li>Lounge Access (21+)</li>
+                    </ul></p>
+                    <a href="#" class="btn custom-button">Learn More!</a>
+                  </div>
+                <div class="card-footer custom-card-bg">
+                  Only $29.99 per Month
+                </div>
+              </div>
+            </div>
+            <div class="col card-col d-flex flex-column ">
+              <div class="card custom-opacity border-warning">
+                <div  class="card-header custom-card-bg"><span class="fw-bold">
+                  "I Wanna Get Swoll" </span>Plan
+                </div>
+                  <div class="card-body">
+                    <h5 class="card-title">"I Wanna Get Swoll" Includes:</h5>
+                    <p class="card-text"><ul>
+                      <li>Gym Access</li>
+                      <li>Pool Access</li>
+                      <li>Free Wi-Fi</li>
+                      <li>1 Free Smoothie</li>
+                      <li>1 Free Trainer Consult</li>
+                      <li>Lounge Access (21+)</li>
+                    </ul></p>
+                    <a href="#" class="btn custom-button">Learn More!</a>
+                  </div>
+                <div class="card-footer custom-card-bg">
+                  Only $49.99 per Month
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
     </div>
-    <div class="membership col">
-      <div class="card">
-        <div class="card-header">
-          Featured
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-        <div class="card-footer text-body-secondary">
-          2 days ago
-        </div>
-      </div>
-    </div>
-    <div class="membership col">
-      <div class="card">
-        <div class="card-header">
-          Featured
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-        <div class="card-footer text-body-secondary">
-          2 days ago
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="col-1 sidebar">.</div>
-
-
+  <div class="col-1 sidebar"></div>
 </section>
 
 
@@ -124,7 +152,7 @@
 <!-- Footer -->
 
 <footer id="footer" class="d-flex container-fluid text-light">
-  <div class="row d-inline-flex justify-content around pt-5 pb-5">
+  <div class="row d-inline-flex justify-content around p-1">
     <div class="loc-wrapper col d-flex justify-content-center pt-3 pb-3">
       <div class="map-wrapper d-flex">
         <img src="Static/Locations/Denver-location.jpg" alt="Denver map" class="rounded img-fluid">

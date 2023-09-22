@@ -1,0 +1,131 @@
+* {
+    border: 1px solid red;
+}
+
+/* For navbar */
+
+.navbar {
+  background-color: rgb(72, 1, 70);
+}
+
+.dropdown-menu {
+  --bs-dropdown-bg: white;
+  --bs-dropdown-link-color: #333, .5;
+  --bs-dropdown-link-hover-color:white;
+  --bs-dropdown-link-hover-bg: rgba(130, 12, 126, 0.5);
+}
+
+  #logo {
+    height: 100px;
+    width: auto;  
+  }
+  
+  .navbar {
+    height: 100px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    #logo {
+      height: 140px;
+      width: auto;
+      }
+  
+    .navbar {
+    height: 140px;
+    width: auto;
+    }
+  }
+
+  
+
+
+/* for Main Section */
+
+
+/* .title-image {
+  position: absolute;
+  border-top: 1px solid #ffc107;
+} Leaving in case there is a way to make the image fit reactively on all screens*/
+
+#main {
+  position: relative;
+  height: fit-content;
+  padding: 0;
+}
+
+.sidebar {
+  background-color:  rgb(72, 1, 70);
+}
+
+h1 {
+  font-weight: 700;
+  opacity: 90%;
+  font-size: 20pt;
+  color: rgb(143, 13, 138);
+  text-align: center;
+  text-shadow:
+  1px 1px 0 #ffc107,
+  1px -1px 0 #ffc107,
+  -1px 1px 0 #ffc107,
+    -1px -1px 0 #ffc107;
+}  
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 50pt;
+  }
+}
+
+.custom-opacity {
+  opacity: 90%;
+}
+
+.custom-card-bg {
+  background-color: rgba(130, 12, 126, 9);
+  color: white;
+  border: 1px solid yellow;
+}
+
+.custom-button {
+  background-color: rgba(130, 12, 126, 0.9);
+  color: white;
+  border: 1px solid yellow;
+}
+
+.custom-button:hover {
+  background-color: rgba(153, 37, 149, 0.9);
+  color: white;
+  border: 1px solid yellow;
+}
+
+li {
+  font-weight: 400;
+}
+/* For Footer */
+
+
+footer {
+  background-color: rgb(72, 1, 70);
+  max-height: fit-content;
+  position: relative;
+  bottom: 0;
+  z-index: 0;
+}
+    .map-wrapper {
+width:277px;
+height: 202px;
+overflow: hidden;
+}
+
+.map-wrapper img {
+width: 100%;
+object-fit: cover;
+}
+
+.fa-brands {
+color: white;
+}
+
+.fa-brands:hover {
+color: #5DADE2;
+}
