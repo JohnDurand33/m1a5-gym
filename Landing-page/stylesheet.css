@@ -18,16 +18,6 @@ nav {
     --bs-dropdown-link-hover-bg: rgba(130, 12, 126, 0.5);
   }
 
-h2 {
-  color: rgb(143, 13, 138);
-  text-align: center;
-  text-shadow:
-  1px 1px 0 #ffc107,
-  1px -1px 0 #ffc107,
-  -1px 1px 0 #ffc107,
-    -1px -1px 0 #ffc107;
-}
-
 #logo {
   height: 100px;
   width: auto;  
@@ -46,6 +36,16 @@ h2 {
   .navbar {
   height: 140px;
   }
+}
+
+h2 {
+  color: rgb(143, 13, 138);
+  text-align: center;
+  text-shadow:
+  1px 1px 0 #ffc107,
+  1px -1px 0 #ffc107,
+  -1px 1px 0 #ffc107,
+    -1px -1px 0 #ffc107;
 }
 
 .sidebar {
