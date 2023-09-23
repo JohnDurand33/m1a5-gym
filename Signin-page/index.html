@@ -13,10 +13,9 @@
 <body class="bg-dark">
     
 </body>
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark m-0 p-0">
+<nav class="navbar navbar-expand-lg navbar-dark m-0 p-0">
     <div class="container-fluid d-flex justify-content-between m-0 p-0">
-      <a class="navbar-brand ms-0 p-0" href="http://127.0.0.1:5500/index.html" alt="Homepage">
-          <img id="logo" src="Static/Gym/ST-final logo-formatted.jpg" alt="Swoll Temple Logo" class="img-fluid"></a> 
+      <a class="text-white ps-1 m-1 m-md-3 ps-md-3 fs-1 fw-bold">Swoll Temple</a> 
         <button class="navbar-toggler pe-5" 
           type="button" 
           data-bs-toggle="collapse" 
@@ -55,7 +54,121 @@
   </nav>
 
 
+<!-- Sign-In Content -->
 
+<section>
+    <div class="d-flex container-fluid justify-content-center">
+        <div class="st-logo-wrapper d-flex justify-content-center mt-2 mt-md-3">
+            <img id="logo" class="img-fluid" src="Static/Gym/ST-final logo-formatted.jpg" 
+            alt="Swoll Temple Logo">
+            <h1 class="Sign-in text-center p-1 text-success fw-bold">Today is your day!</h1>
+        </div>
+    </div>
+        <div class="form-wrapper d-flex justify-content-center">
+            <div class="sign-in-form col-7 col-md-4 pt-1 pt-md-3">
+                <form class="sign-in-form text-white">
+                    <div class="mt-2 mt-md-3 mb-1 mb-md-3">
+                      <label for="Email" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="email" placeholder="Enter email.." >
+                    </div>
+                    <div class="mb-1 mb-md-3">
+                      <label for="Password" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="password" placeholder="Enter password..">
+                    </div>
+                    <div class="mb-1 mb-md-3 form-check">
+                      <input type="checkbox" class="form-checkbox-custom" id="remember-me">
+                      <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                    </div>
+                    <div class="btn-wrapper d-flex justify-content-around">
+                        <button type="submit" class="btn btn-custom text-light border-warning">Submit</button>
+                        <button type="submit" class="ms-3 ms-md-5 btn btn-custom text-light border-warning">I forgot my password</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+</section>
+
+<!-- Footer -->
+
+<footer id="footer" class="border-top border-warning d-flex container-fluid text-light mt-5">
+    <div class="row d-inline-flex justify-content around p-1">
+      <div class="loc-wrapper col d-flex justify-content-center pt-3 pb-3">
+        <div class="map-wrapper d-flex">
+          <img src="Static/Locations/Denver-location.jpg" alt="Denver map" class="rounded img-fluid">
+        </div>
+        <div class="location-info d-flex flex-column ms-5 justify-content-evenly">
+          <h4 class="text-decoration-underline">Denver</h4>
+          <p>1111 Denver Drive,<br>Denver, CO 88888</p>
+          <p>(P): (720) 555-5555</p>
+          <div class="social d-flex justify-content-evenly">
+            <a href="#"><i class="fa-brands fa-square-facebook fs-2"></i></a><br>
+            <a href="#"><i class="fa-brands fa-square-twitter fs-2"></i></a><br>
+            <a href="#"><i class="fa-brands fa-square-instagram fs-2"></i></a><br>
+          </div>
+        </div>
+      </div>
+      <div class="loc-wrapper col d-flex justify-content-center pt-3 pb-3">
+        <div class="map-wrapper d-flex">
+          <img src="Static/Locations/Parker-location.jpg" alt="Parker map" class="rounded img-fluid">
+        </div>
+        <div class="location-info d-flex flex-column ms-5 justify-content-evenly">
+          <h4 class="text-decoration-underline">Parker</h4>
+          <p>2222 Parker Place,<br>Denver, CO 88888</p>
+          <p>(P): (720) 555-5555</p>
+          <div class="social d-flex justify-content-evenly">
+            <a href="#"><i class="fa-brands fa-square-facebook fs-2"></i></a><br>
+            <a href="#"><i class="fa-brands fa-square-twitter fs-2"></i></a><br>
+            <a href="#"><i class="fa-brands fa-square-instagram fs-2"></i></a><br>
+          </div>
+        </div>
+      </div>
+      <div class="loc-wrapper col-md-4 d-flex justify-content-center pt-3 pb-3">
+        <div class="map-wrapper d-flex">
+          <img src="Static/Locations/Highlands-ranch -location.jpg" alt="Highlands Ranch map" class="rounded img-fluid">
+        </div>
+        <div class="location-info d-flex flex-column ms-5 justify-content-evenly">
+          <h4 class="text-decoration-underline">Ranchview</h4>
+          <p>3333 Ranch Road,<br>Ranch, CO 88888</p>
+          <p>(P): (720) 555-5555</p>
+          <div class="social d-flex justify-content-evenly">
+            <a href="#"><i class="fa-brands fa-square-facebook fs-2"></i></a><br>
+            <a href="#"><i class="fa-brands fa-square-twitter fs-2"></i></a><br>
+            <a href="#"><i class="fa-brands fa-square-instagram fs-2"></i></a><br>
+          </div>
+        </div>
+      </div>
+      <div class="loc-wrapper col d-flex justify-content-center  pt-3 pb-3">
+        <div class="map-wrapper d-flex">
+          <img src="Static/Locations/Aurora Location.jpg" alt="Aurora map" class="rounded img-fluid">
+        </div>
+        <div class="location-info d-flex flex-column ms-5 justify-content-evenly">
+          <h4 class="text-decoration-underline">Aurora</h4>
+          <p>4444 Aurora Ave,<br>Aurora, CO 88888</p>
+          <p>(P): (720) 555-5555</p>
+          <div class="social d-flex justify-content-evenly">
+            <a href="#"><i class="fa-brands fa-square-facebook fs-2"></i></a><br>
+            <a href="#"><i class="fa-brands fa-square-twitter fs-2"></i></a><br>
+            <a href="#"><i class="fa-brands fa-square-instagram fs-2"></i></a><br>
+          </div>
+        </div>
+      </div>
+      <div class="loc-wrapper col d-flex justify-content-center  pt-3 pb-3">
+        <div class="map-wrapper d-flex">
+          <img src="Static/Locations/Littleton Location.jpg" alt="Littleton map" class="rounded img-fluid">
+        </div>
+        <div class="location-info d-flex flex-column ms-5 justify-content-evenly">
+          <h4 class="text-decoration-underline">Littleton</h4>
+          <p>5555 Littleton Lane,<br>Littleton, CO 88888</p>
+          <p>(P): (720) 555-5555</p>
+          <div class="social d-flex justify-content-evenly">
+            <a href="#"><i class="fa-brands fa-square-facebook fs-2"></i></a><br>
+            <a href="#"><i class="fa-brands fa-square-twitter fs-2"></i></a><br>
+            <a href="#"><i class="fa-brands fa-square-instagram fs-2"></i></a><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
 
