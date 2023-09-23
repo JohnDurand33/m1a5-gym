@@ -1,0 +1,39 @@
+*{
+    border: 1px solid red;
+}
+
+nav {
+    background-color: rgba(72, 1, 70, 0.5);
+    border-bottom: 1px solid #ffc107;
+}
+
+#logoborder {
+  border: 1px solid #ffc107;
+}
+
+.dropdown-menu {
+    --bs-dropdown-bg: white;
+    --bs-dropdown-link-color: #333, .5;
+    --bs-dropdown-link-hover-color:white;
+    --bs-dropdown-link-hover-bg: rgb(72, 1, 70);
+  }
+
+#logo {
+  height: 100px;
+  width: auto;  
+}
+
+.navbar {
+  height: 100px;
+}
+
+@media screen and (min-width: 700px) {
+  #logo {
+    height: 140px;
+    width: auto;
+    }
+
+  .navbar {
+  height: 140px;
+  }
+}
