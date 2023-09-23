@@ -12,6 +12,26 @@ nav a {
     min-width: fit-content;
 }
 
+.dropdown-menu {
+    --bs-dropdown-bg: white;
+    --bs-dropdown-link-color: #333, .5;
+    --bs-dropdown-link-hover-color:white;
+    --bs-dropdown-link-hover-bg: rgba(130, 12, 126, 0.5);
+}
+
+.sign-out-message {
+    display: none;
+    background-color: rgb(72, 1, 70);
+}
+  
+.sign-out-message:target {
+  display: block;
+  background-color: rgb(72, 1, 70);
+  color: white;
+  font-size: 30pt;
+  text-align: center;
+}
+
 .navbar {
     height: 100px;
 }
@@ -22,12 +42,7 @@ nav a {
     }
 }
 
-.dropdown-menu {
-    --bs-dropdown-bg: white;
-    --bs-dropdown-link-color: #333, .5;
-    --bs-dropdown-link-hover-color:white;
-    --bs-dropdown-link-hover-bg: rgba(130, 12, 126, 0.5);
-}
+
 
 .st-logo-wrapper {
     position:relative;

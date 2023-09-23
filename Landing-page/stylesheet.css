@@ -22,6 +22,19 @@ nav a {
     --bs-dropdown-link-hover-bg: rgba(130, 12, 126, 0.5);
   }
 
+.sign-out-message {
+  display: none;
+  background-color: (72, 1, 70, 0.5);
+}
+
+.sign-out-message:target {
+  display: block;
+  background-color: (72, 1, 70, 0.5);
+  color: white;
+  font-size: 50pt;;
+  text-align: center;
+}
+
 #logo {
   height: 100px;
   width: auto;  
