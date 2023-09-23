@@ -1,11 +1,6 @@
-*{
+/* *{
     border: 1px solid red;
-}
+} */
 
-body {
-    background-color: black;
-}
-
-#test {
-    display: none;
-}
+/* I used multiple local style sheets for this site, but looking forward to 
+one master sheet to rule them all for my next project! */

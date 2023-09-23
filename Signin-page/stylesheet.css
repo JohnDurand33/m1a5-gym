@@ -5,11 +5,11 @@
 nav {
     background-color: rgb(72, 1, 70);
     border-bottom: 1px solid #ffc107;
-    position:relative;
 }
 
 nav a {
     text-decoration: none;
+    min-width: fit-content;
 }
 
 .navbar {

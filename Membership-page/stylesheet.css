@@ -5,6 +5,11 @@
   background-color: rgb(72, 1, 70);
 }
 
+nav a {
+  text-decoration: none;
+  min-width: fit-content;
+}
+
 .dropdown-menu {
   --bs-dropdown-bg: white;
   --bs-dropdown-link-color: #333, .5;

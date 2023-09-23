@@ -6,6 +6,12 @@
 
 nav {
   background-color: rgba(72, 1, 70);
+  border-bottom: #ffc107;
+}
+
+nav a {
+  text-decoration: none;
+  min-width: fit-content;
 }
 
 .dropdown-menu {
@@ -54,7 +60,7 @@ h1 {
 
 #trainergrid {
   position:relative;
-  margin-top: 15px;
+  padding-top: 15px;
 }
 
 @media screen and (min-width: 700px) {
@@ -64,7 +70,7 @@ h1 {
 
   #trainergrid {
     position: relative;
-    margin-top: 30px;
+    padding-top: 30px;
   }
 }
 

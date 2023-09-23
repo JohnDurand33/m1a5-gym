@@ -7,6 +7,10 @@ nav {
     border-bottom: 1px solid #ffc107;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 #logoborder {
   border: 1px solid #ffc107;
 }
@@ -45,8 +49,11 @@ h2 {
   1px 1px 0 #ffc107,
   1px -1px 0 #ffc107,
   -1px 1px 0 #ffc107,
-    -1px -1px 0 #ffc107;
+  -1px -1px 0 #ffc107;
+  margin-bottom: 0;
 }
+
+
 
 .sidebar {
   background-color:  rgb(72, 1, 70);
@@ -86,10 +93,10 @@ h1 a {
 h1 a:hover {
   color: rgb(143, 13, 138);
   text-shadow:
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+    -1px -1px 0 #ffc107,  
+    1px -1px 0 #ffc107,
+    -1px 1px 0 #ffc107,
+    1px 1px 0 #ffc107;
 }
 
 #weights {
