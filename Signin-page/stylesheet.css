@@ -32,6 +32,10 @@ nav a {
   text-align: center;
 }
 
+.dropdown-item.active {
+    background: rgba(130, 12, 126, 0.5);
+}
+  
 .navbar {
     height: 100px;
 }
