@@ -1,0 +1,211 @@
+/* *{
+    border: 1px solid red; 
+} */
+
+nav {
+    background-color: rgba(72, 1, 70, 0.5);
+    border-bottom: 1px solid #ffc107;
+}
+
+nav a {
+  text-decoration: none;
+  /* min-width: fit-content; */
+}
+
+#logoborder {
+  border: 1px solid #ffc107;
+}
+
+.dropdown-menu {
+    --bs-dropdown-bg: white;
+    --bs-dropdown-link-color: #333, .5;
+    --bs-dropdown-link-hover-color:white;
+    --bs-dropdown-link-hover-bg: rgba(130, 12, 126, 0.5);
+  }
+
+
+  
+.sign-out-message {
+  display: none;
+  background-color: (72, 1, 70, 0.5);
+}
+
+.sign-out-message:target {
+  display: block;
+  background-color: (72, 1, 70, 0.5);
+  color: white;
+  font-size: 50pt;;
+  text-align: center;
+}
+
+#logo {
+  height: 100px;
+  width: auto;  
+}
+
+.navbar {
+  height: 100px;
+}
+
+@media screen and (min-width: 700px) {
+  #logo {
+    height: 140px;
+    width: auto;
+    }
+
+  .navbar {
+  height: 140px;
+  }
+}
+
+h2 {
+  color: rgb(143, 13, 138);
+  text-align: center;
+  text-shadow:
+  1px 1px 0 #ffc107,
+  1px -1px 0 #ffc107,
+  -1px 1px 0 #ffc107,
+  -1px -1px 0 #ffc107;
+  margin-bottom: 0;
+}
+
+
+
+.sidebar {
+  background-color:  rgb(72, 1, 70);
+}
+
+.gallery-photo {
+  position: relative;
+  width: 100%;
+}
+
+.gallery-photo img {
+  border: 2px solid black;
+}
+
+@media only screen and (min-width: 600px) {
+  .gallery-photo {
+    position: relative;
+    width: 41.66%;
+  }
+}
+
+.gallery-photo img{
+  border: 2px solid #ffc107;
+}
+
+h1 a {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+h1 a:hover {
+  color: rgb(143, 13, 138);
+  text-shadow:
+    -1px -1px 0 #ffc107,  
+    1px -1px 0 #ffc107,
+    -1px 1px 0 #ffc107,
+    1px 1px 0 #ffc107;
+}
+
+#weights {
+  position: absolute;
+  color: white;
+  bottom: 40px;
+  left: 37%;
+  padding: 5px;
+}
+
+#cycling {
+  position: absolute;
+  color: white;
+  bottom: 40px;
+  left: 37%;
+  padding: 5px;
+}
+
+#training {
+  position: absolute;
+  color: white;
+  bottom: 40px;
+  left: 32%;
+  padding: 5px;
+}
+
+#yoga {
+  position: absolute;
+  color: white;
+  bottom: 40px;
+  left: 42%;
+  padding: 5px;
+}
+
+footer {
+  background-color: rgb(72, 1, 70);
+  
+}
+.map-wrapper {
+  width:277px;
+  height: 202px;
+  overflow: hidden;
+}
+
+.map-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.fa-brands {
+  color: white;
+}
+
+.fa-brands:hover {
+  color: #5DADE2;
+}
+
+
+
+
+/* For mobile phones:
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  For tablets:
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  For desktop: 
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+} */

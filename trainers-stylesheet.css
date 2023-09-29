@@ -1,0 +1,129 @@
+/* * {
+    border: 1px solid red;
+} */
+
+nav {
+  background-color: rgb(72, 1, 70);
+  border-bottom: #ffc107;
+}
+
+nav a {
+  text-decoration: none;
+  min-width: fit-content;
+}
+
+.dropdown-menu {
+  --bs-dropdown-bg: white;
+  --bs-dropdown-link-color: #333, .5;
+  --bs-dropdown-link-hover-color:white;
+  --bs-dropdown-link-hover-bg: rgba(130, 12, 126, 0.5);
+}
+
+.sign-out-message {
+  display: none;
+  background-color: rgb(72, 1, 70);
+}
+
+.sign-out-message:target {
+  display: block;
+  background-color: rgb(72, 1, 70);
+  color: white;
+  font-size: 30pt;
+  text-align: center;
+}
+
+.dropdown-item.active {
+  background: rgba(130, 12, 126, 0.5);
+}
+
+.navbar {
+  height: 100px;
+}
+
+@media screen and (min-width: 700px) {
+  .navbar {
+  height: 140px;
+  }
+}
+
+
+.sidebar {
+  background-color:  rgba(72, 1, 70);
+}
+
+h1 {
+  font-size: 30pt;
+  font-weight: 700;
+  color: rgb(143, 13, 138);
+  text-align: center;
+  text-decoration: underline;
+  text-shadow:
+  1px 1px 0 #ffc107,
+  1px -1px 0 #ffc107,
+  -1px 1px 0 #ffc107,
+    -1px -1px 0 #ffc107;
+}
+
+#trainergrid {
+  position:relative;
+  padding-top: 15px;
+}
+
+@media screen and (min-width: 700px) {
+  h1 {
+    font-size: 50pt;
+  }
+
+  #trainergrid {
+    position: relative;
+    padding-top: 30px;
+  }
+}
+
+.btn-custom {
+    background-color: rgb(143, 13, 138);
+    color: white;
+}
+
+
+.btn-custom:hover {
+    border-color: black;
+    background-color: rgb(181, 20, 176);
+    color: white;
+}
+
+
+
+
+/* Below for Footer */
+
+footer {
+    background-color: rgb(72, 1, 70);
+}
+
+    .map-wrapper {
+width:277px;
+height: 202px;
+overflow: hidden;
+display: flex;
+}
+
+.map-wrapper img {
+width: 100%;
+object-fit: cover;
+flex-shrink: none;
+}
+
+
+
+.fa-brands {
+color: white;
+}
+
+.fa-brands:hover {
+color: #5DADE2;
+}
+
+
+  
+

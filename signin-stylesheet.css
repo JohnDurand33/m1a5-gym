@@ -1,0 +1,116 @@
+/* *{
+    border: 1px solid red;
+} */
+
+nav {
+    background-color: rgb(72, 1, 70);
+    border-bottom: 1px solid #ffc107;
+}
+
+nav a {
+    text-decoration: none;
+    min-width: fit-content;
+}
+
+.dropdown-menu {
+    --bs-dropdown-bg: white;
+    --bs-dropdown-link-color: #333, .5;
+    --bs-dropdown-link-hover-color:white;
+    --bs-dropdown-link-hover-bg: rgba(130, 12, 126, 0.5);
+}
+
+.sign-out-message {
+    display: none;
+    background-color: rgb(72, 1, 70);
+}
+  
+.sign-out-message:target {
+  display: block;
+  background-color: rgb(72, 1, 70);
+  color: white;
+  font-size: 30pt;
+  text-align: center;
+}
+
+.dropdown-item.active {
+    background: rgba(130, 12, 126, 0.5);
+}
+  
+.navbar {
+    height: 100px;
+}
+  
+@media screen and (min-width: 768px) {
+    .navbar {
+        height: 140px;
+    }
+}
+
+
+
+.st-logo-wrapper {
+    position:relative;
+    width: 300px;
+    height: 204px;
+}
+
+@media screen and (min-width: 768px) {
+    .st-logo-wrapper {
+        position:relative;
+        width: 500px;
+        height: 340px;
+    }
+}
+
+#logo {
+  border: 2px solid #ffc107;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.st-logo-wrapper h1 {
+    position: absolute;
+    bottom: 0;
+}
+
+.form-checkbox-custom:checked {
+    background-color: rgb(72, 1, 70);
+    border-color: rgb(72, 1, 70)
+}
+
+.btn-custom {
+    background-color: rgba(130, 12, 126, 0.5);
+}
+
+.btn-custom:hover {
+    background-color: rgba(130, 12, 126);
+}
+
+footer {
+    background-color: rgb(72, 1, 70);
+    position: relative;
+    bottom: 0;
+    border-top: 10px #ffc107;
+}
+    .map-wrapper {
+width:277px;
+height: 202px;
+overflow: hidden;
+}
+
+.map-wrapper img {
+width: 100%;
+object-fit: cover;
+}
+
+.fa-brands {
+color: white;
+}
+
+.fa-brands:hover {
+color: #5DADE2;
+}
+
